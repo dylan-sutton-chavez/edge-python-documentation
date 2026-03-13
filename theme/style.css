@@ -4,15 +4,11 @@
   Resize the font of navegation logo. 
   */
   
-  font-size: 100rem !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
 
 }
 
-#navbar {
-  background: #fffff2;
-  padding: 1rem;
-}
-
-footer {
-  margin-top: 2rem;
+.border {
+  border-color: #373735 !important;
 }
