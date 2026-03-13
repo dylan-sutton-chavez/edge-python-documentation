@@ -1,5 +1,8 @@
-
-/* Opción 2 - selector de logo según docs */
 .nav-logo {
-  font-size: 1rem !important;
+  
+  /* 
+  Resize the font of navegation logo. 
+  */
+  
+  font-size: 1.25rem !important;
 }
