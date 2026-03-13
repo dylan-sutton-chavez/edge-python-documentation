@@ -23,7 +23,7 @@ bytes -> spans -> tokens -> bytecode -> [inline caching + quickening]
 ```
 
 $$
-\Gamma_{\text{compiler}} = \mathcal{V}_{quickening} \circ \mathcal{P}_{\text{parser}} \circ \mathcal{L}_{\text{lexer}}
+\Gamma_{compiler} = \mathcal{V}_{quickening} \circ \mathcal{P}_{parser} \circ \mathcal{L}_{lexer}
 $$
 
 ## References
