@@ -14,6 +14,12 @@
           "first-steps/intro",
           "first-steps/quickstart"
         ]
+      },
+      {
+        "group": "Resources",
+        "pages": [
+          "resources/architecture"
+        ]
       }
     ]
   },
