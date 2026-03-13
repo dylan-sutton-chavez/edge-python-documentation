@@ -9,13 +9,13 @@
   "navigation": {
     "groups": [
       {
-        "group": "Getting Started",
-        "pages": ["quickstart"]
+        "group": "First steps",
+        "pages": ["first-steps/intro", "first-steps/quickstart"]
       }
     ]
   },
   "contextual": {
-    "options": ["copy", "view", "claude", "chatgpt", "cursor", "vscode", "mcp"]
+    "options": ["copy", "view", "claude", "vscode"]
   },
   "background": {
     "color": {
