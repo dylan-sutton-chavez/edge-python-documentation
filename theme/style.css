@@ -1,0 +1,18 @@
+.nav-logo {
+  
+  /* 
+  Resize the font of navegation logo. 
+  */
+  
+  font-size: 100rem !important;
+
+}
+
+#navbar {
+  background: #fffff2;
+  padding: 1rem;
+}
+
+footer {
+  margin-top: 2rem;
+}
