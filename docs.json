@@ -1,0 +1,64 @@
+{
+  "theme": "maple",
+  "name": "Edge Python",
+  "colors": {
+    "primary": "#d97757",
+    "dark": "#30302e",
+    "light": "#ffffff"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": ["quickstart"]
+      }
+    ]
+  },
+  "contextual": {
+    "options": ["copy", "view", "claude", "chatgpt", "cursor", "vscode", "mcp"]
+  },
+  "background": {
+    "color": {
+      "light": "#faf9f5",
+      "dark": "#262624"
+    }
+  },
+  "styling": {
+    "latex": true
+  },
+  "fonts": {
+    "family": "Inter",
+    "weight": 200,
+    "heading": {
+      "family": "Inter",
+      "weight": 200
+    },
+    "body": {
+      "family": "Inter",
+      "weight": 200
+    }
+  },
+  "errors": {
+    "404": {
+      "redirect": true
+    }
+  },
+  "seo": {
+    "indexing": "all"
+  },
+  "appearance": {
+    "strict": false,
+    "default": "system"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "integrations": {
+    "telemetry": {
+      "enabled": true
+    }
+  },
+  "metadata": {
+    "timestamp": false
+  }
+}
