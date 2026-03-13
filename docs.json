@@ -1,7 +1,6 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
-  "name": "Claude",
+  "name": "Edge Python",
   "colors": {
     "primary": "#262624"
   },
