@@ -1,3 +1,14 @@
-[data-element="nav-logo"] * {
+/* Opción 1 - por ID oficial del navbar */
+#navbar a {
+  font-size: 0.85rem !important;
+}
+
+/* Opción 2 - selector de logo según docs */
+.nav-logo {
+  font-size: 0.85rem !important;
+}
+
+/* Opción 3 - forzar en todo el header */
+#header * {
   font-size: 0.85rem !important;
 }
