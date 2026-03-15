@@ -9,7 +9,7 @@ Introducing edge python, a Rust compiler weighing less than 100 KB, based on ada
 
 ## Terms
 
-- bytes: the compiler reads source as raw bytes, never copying into strings.
+- bytes: the compiler reads source as raw bytes, minimizing copies into strings.
 - spans: instead of extracting substrings, the lexer marks where each token starts and ends in the original buffer.
 - tokens: the parser consumes positional markers, not text. Structure emerges from offsets alone.
 - bytecode: the parser emits opcodes directly as it reads tokens, collapsing parsing and code generation into a single pass.
