@@ -7,7 +7,7 @@ description: "Formal specification of Edge Python lexical grammar: token definit
 
 Token set derived directly from Python `token` and `keyword` modules. To update the syntax after any Python upgrade, new tokens require changes to `lexer.rs` and its wrappers.
 
-F-strings are decomposed into a three-token sequence rather than a single `String` token: `FstringStart → FstringMiddle → FstringEnd`. Tooling that consumes the token stream should handle this sequence explicitly.
+F-strings are decomposed into a three-token sequence rather than a single `String` token: `FstringStart -> FstringMiddle -> FstringEnd`. Tooling that consumes the token stream should handle this sequence explicitly.
 
 ```python
 """
