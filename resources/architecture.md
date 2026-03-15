@@ -11,7 +11,7 @@ Introducing edge python, a Rust compiler weighing less than 100 KB, based on ada
 
 - bytes: the compiler reads source as raw bytes, minimizing copies into strings.
 - spans: instead of extracting substrings, the lexer marks where each token starts and ends in the original buffer.
-- tokens: the parser consumes positional markers, not text. Structure emerges from offsets alone.
+- tokens: the parser consumes spanned markers — kind, start, end. Structure and position emerge from offsets alone.
 - bytecode: the parser emits opcodes directly as it reads tokens, collapsing parsing and code generation into a single pass.
 - quickening: the VM rewrites its own instructions as it runs. Once operand types are known, generic opcodes are replaced in-place with faster specialized ones. The bytecode never looks the same twice.
 - copy-and-patch: when quickening identifies a hotspot, the VM copies a precompiled native template into executable memory and patches the variable slots with real values. No code generation at runtime.
