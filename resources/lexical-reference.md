@@ -53,4 +53,4 @@ Based on OWASP standards, the 04:2021 was adapted to prevent asymmetric DoS atta
 
 ## Integration Tests
 
-Tests live in `lexer_test.rs` and load cases from `cases/lexer_cases.json`. Each case is a pair of `[source, expected_tokens]`, the lexer output is compared directly against the expected token list. A dedicated `test_fstring` test asserts that f-strings always produce the `FstringStart -> FstringMiddle -> FstringEnd` sequence in the correct order.
+Tests live in `lexer_test.rs` and load cases from `cases/lexer_cases.json`. Each case is a pair of `[source, expected_tokens]`, the lexer output is compared directly against the expected token list. `test_cases` verifies token kinds across all cases. `test_spans` asserts that each token carries the correct byte offsets: regular tokens point to their exact position in the source buffer.
